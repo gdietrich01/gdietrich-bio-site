@@ -63,14 +63,14 @@ export default function Home() {
               Socials
             </button>
             {showSocials && (
-              <div className="absolute bottom-full mb-1 md:mb-0 md:bottom-auto md:right-full md:top-0 md:mr-1 flex flex-col bg-gray-800/90 text-gray-100 rounded shadow-lg border border-gray-500/50">
+              <div className="absolute bottom-full mb-1 md:mb-0 md:bottom-auto md:right-full md:top-0 md:mr-1 flex flex-col bg-gray-800/90 text-gray-100 rounded shadow-lg border border-gray-500/50 -translate-x-1/2 md:translate-x-0 left-1/2 md:left-auto">
                 {socials.map(({ name, url }) => (
                   <a
                     key={name}
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 hover:bg-gray-700/90 md:hover:text-blue-400 whitespace-nowrap text-sm md:text-base transition-colors duration-150"
+                    className="px-3 py-1.5 hover:bg-gray-700/90 md:hover:text-blue-400 whitespace-nowrap text-sm transition-colors duration-150"
                     onClick={() => setShowSocials(false)}
                   >
                     {name}
@@ -87,10 +87,10 @@ export default function Home() {
         <div className="relative z-10 max-w-sm md:max-w-3xl mx-auto mt-28 md:mt-40 mb-20 mx-4 md:mx-auto bg-white/90 md:bg-white text-black p-4 pt-8 md:p-6 rounded-none shadow-lg backdrop-blur-md md:backdrop-blur-sm border-2 border-blue-400">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Hi</h2>
           <p className="mb-4 text-sm md:text-base">
-            I&apos;m from Buenos Aires, bachelor in Business and Economics from Universidad Torcuato Di Tella.
+            I was born and raised in Buenos Aires, bachelor in Business and Economics from Universidad Torcuato Di Tella.
           </p>
           <p className="mb-4 text-sm md:text-base">
-            For the past three years, I&apos;ve worked at Globant, most recently as a Senior Business Hacking Analyst in New York. There, I supported companies across the U.S. and Latin America through digital transformation projects, optimizing operations, enhancing customer experience, conducting financial analysis, and developing strategic roadmaps to identify growth opportunities.
+            For the past three years, I&apos;ve worked at Globant, most recently as a Senior Business Hacking Analyst based in New York. There, I supported companies across the U.S. and Latin America through digital transformation projects, optimizing operations, enhancing customer experience, conducting financial analysis, and developing strategic roadmaps to identify growth opportunities.
           </p>
           <p className="text-sm md:text-base">
             I&apos;m now looking to join dynamic, high-performing teams dedicated to using technology for meaningful impact.
@@ -103,7 +103,10 @@ export default function Home() {
           <h2 className="text-xl md:text-2xl font-bold mb-4">Professional Career</h2>
           <ul className="list-disc pl-4 md:pl-6 space-y-4 text-sm md:text-base">
             <li>
-              <strong>Business Hacking Sr Analyst — Globant, New York, US (Apr 2024 – Present)</strong><br />
+            <strong>Business Hacking SrAnalyst - Globant New York, US (Apr 2025 - Present)</strong><br />
+              <strong>Business Hacking Analyst - Globant New York, US (Apr 2024 - Apr 2025)</strong><br />
+            
+          
               Collaborated with financial services clients as part of the AI Studio, contributing to pre-sales activities by designing tailored proposals and showcasing AI-driven solutions to improve operational efficiency and customer engagement.<br />
               Supported a project for a financial services client by enhancing ticket creation processes, improving efficiency, reducing bottlenecks, and identifying new opportunities.<br />
               Led a strategic project for a major insurance provider across nine LATAM countries to optimize customer service operations and drive business transformation:
@@ -146,7 +149,7 @@ export default function Home() {
       )}
 
       {activeSection === "education" && (
-        <div className="relative z-10 max-w-sm md:max-w-3xl mx-auto mt-28 md:mt-40 mb-20 mx-4 md:mx-auto bg-white/90 md:bg-white text-black p-4 pt-8 md:p-6 rounded-none shadow-lg backdrop-blur-md md:backdrop-blur-sm border-2 border-blue-400">
+        <div className="relative z-10 max-w-sm md:max-w-3xl mx-auto mt-28 md:mt-40 mb-20 mx-4 md:mx-auto bg-white/90 md:bg-white text-black p-4 pt-8 md:p-6 rounded-none shadow-lg backdrop-blur-md md:backdrop-blur-sm border-2 border-blue-400 max-h-[60vh] md:max-h-[70vh] overflow-y-auto">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Education & More</h2>
           <ul className="list-disc pl-4 md:pl-6 space-y-4 text-sm md:text-base">
             <li>
