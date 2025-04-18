@@ -67,13 +67,13 @@ export default function Home() {
         <div className="relative z-10 max-w-3xl mx-auto mt-40 bg-white text-black p-6 rounded-2xl shadow-lg backdrop-blur-sm border border-blue-200/30">
           <h2 className="text-2xl font-bold mb-4">Hi</h2>
           <p className="mb-4">
-            I'm from Buenos Aires, bachelor in Business and Economics from Universidad Torcuato Di Tella.
+            I&apos;m from Buenos Aires, bachelor in Business and Economics from Universidad Torcuato Di Tella.
           </p>
           <p className="mb-4">
-            For the past three years, I've worked at Globant, most recently as a Senior Business Hacking Analyst in New York. There, I supported companies across the U.S. and Latin America through digital transformation projects, optimizing operations, enhancing customer experience, conducting financial analysis, and developing strategic roadmaps to identify growth opportunities.
+            For the past three years, I&apos;ve worked at Globant, most recently as a Senior Business Hacking Analyst in New York. There, I supported companies across the U.S. and Latin America through digital transformation projects, optimizing operations, enhancing customer experience, conducting financial analysis, and developing strategic roadmaps to identify growth opportunities.
           </p>
           <p>
-            I'm now looking to join dynamic, high-performing teams dedicated to using technology for meaningful impact.
+            I&apos;m now looking to join dynamic, high-performing teams dedicated to using technology for meaningful impact.
           </p>
         </div>
       )}
@@ -98,10 +98,10 @@ export default function Home() {
             <li>
               <strong>Business Hacking Analyst — Globant, Buenos Aires, Argentina (Apr 2022 – Apr 2024)</strong><br />
               Contributed to developing business cases, discovery processes, and benchmarks for clients in pharmaceutical, automotive, financial, and sustainability sectors.<br />
-              Secured a major deal for Mexico's second-largest bank, creating an automotive marketplace.<br />
+              Secured a major deal for Mexico&apos;s second-largest bank, creating an automotive marketplace.<br />
               Led a sustainability project for the Inter-American Development Bank (IDB).<br />
               Oversaw project staffing and studio budget alignment.<br />
-              Spearheaded a unified loyalty program across ten companies, piloted in Paraguay's premier stadiums.
+              Spearheaded a unified loyalty program across ten companies, piloted in Paraguay&apos;s premier stadiums.
             </li>
             <li>
               <strong>Co-Founder — Blitz, Buenos Aires, Argentina (Aug 2023 – Mar 2024)</strong><br />
@@ -174,13 +174,13 @@ export default function Home() {
         <div className="relative z-10 max-w-3xl mx-auto mt-40 bg-white text-black p-6 rounded-2xl shadow-lg backdrop-blur-sm border border-blue-200/30">
           <h2 className="text-2xl font-bold mb-4">Interests</h2>
           <p className="mb-4">
-            I’m deeply curious about how technology intersects with the real world. My interests range from self-driving systems and robotics to the future of payments and financial infrastructure.
+            I&apos;m deeply curious about how technology intersects with the real world. My interests range from self-driving systems and robotics to the future of payments and financial infrastructure.
           </p>
           <p className="mb-4">
             Outside of work, I enjoy competitive sports (especially skiing), exploring new countries and cultures, and following developments in macroeconomics, geopolitics, and AI.
           </p>
           <p>
-            I'm also passionate about long-term impact — projects that aim to reshape how people live, work, and move.
+            I&apos;m also passionate about long-term impact — projects that aim to reshape how people live, work, and move.
           </p>
         </div>
       )}
