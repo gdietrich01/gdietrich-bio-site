@@ -90,7 +90,7 @@ export default function Home() {
             I was born and raised in Buenos Aires, bachelor in Business and Economics from Universidad Torcuato Di Tella.
           </p>
           <p className="mb-4 text-sm md:text-base">
-            For the past three years, I&apos;ve worked at Globant, most recently as a Senior Business Hacking Analyst based in New York. There, I supported companies across the U.S. and Latin America through digital transformation projects, optimizing operations, enhancing customer experience, conducting financial analysis, and developing strategic roadmaps to identify growth opportunities.
+            For the past three years, I&apos;ve been working at Globant, most recently as a Senior Business Hacking Analyst based in New York. There, I support companies across the U.S. and Latin America through digital transformation projects, optimizing operations, enhancing customer experience, conducting financial analysis, and developing strategic roadmaps to identify growth opportunities.
           </p>
           <p className="text-sm md:text-base">
             I&apos;m now looking to join dynamic, high-performing teams dedicated to using technology for meaningful impact.
@@ -107,7 +107,7 @@ export default function Home() {
               <strong>Business Hacking Analyst - Globant New York, US (Apr 2024 - Apr 2025)</strong><br />
             
           
-              Collaborated with financial services clients as part of the AI Studio, contributing to pre-sales activities by designing tailored proposals and showcasing AI-driven solutions to improve operational efficiency and customer engagement.<br />
+              Collaborate with financial services clients as part of the AI Studio, contributing to pre-sales activities by designing tailored proposals and showcasing AI-driven solutions to improve operational efficiency and customer engagement.<br />
               Supported a project for a financial services client by enhancing ticket creation processes, improving efficiency, reducing bottlenecks, and identifying new opportunities.<br />
               Led a strategic project for a major insurance provider across nine LATAM countries to optimize customer service operations and drive business transformation:
               <ul className="list-disc pl-6 mt-2 space-y-2">
